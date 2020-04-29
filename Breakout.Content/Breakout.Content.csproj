@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E7ADFBE-4D05-4FA3-BDA7-67133A12FB7E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Breakout.Content</RootNamespace>
+    <AssemblyName>Breakout.Content</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildExtensionsPath)\MonoGame\v3.0\Tools\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework.Content.Pipeline">
+      <HintPath>$(MSBuildExtensionsPath)\MonoGame\v3.0\Tools\MonoGame.Framework.Content.Pipeline.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Sounds\ballsgone.wma" />
+    <Content Include="bin\Sounds\brick.wma" />
+    <Content Include="bin\Sounds\gameover.wma" />
+    <Content Include="bin\Sounds\go.wma" />
+    <Content Include="bin\Sounds\levelup.wma" />
+    <Content Include="bin\Sounds\loselife.wma" />
+    <Content Include="bin\Sounds\magic-chime-01.wma" />
+    <Content Include="bin\Sounds\paddle.wma" />
+    <Content Include="Bonus\bonus_10.bmp" />
+    <Content Include="Bonus\bonus_11.bmp" />
+    <Content Include="Bonus\bonus_12.bmp" />
+    <Content Include="Bonus\bonus_13.bmp" />
+    <Content Include="Bonus\bonus_14.bmp" />
+    <Content Include="PuzzleGraphics\puzzleGraphics.png" />
+    <Content Include="Sounds\ballsgone.mp3" />
+    <Content Include="Sounds\brick.mp3" />
+    <Content Include="Sounds\coins.wav" />
+    <Content Include="Sounds\gameover.mp3" />
+    <Content Include="Sounds\go.mp3" />
+    <Content Include="Sounds\levelup.mp3" />
+    <Content Include="Sounds\loselife.mp3" />
+    <Content Include="Sounds\magic-chime-01.mp3" />
+    <Content Include="Sounds\paddle.mp3" />
+    <Content Include="Sprites\breakout_bg.png" />
+    <Content Include="Sprites\breakout_sprites%28no shadow%29_5.png" />
+    <Content Include="Sprites\dark_border_top.png" />
+    <Content Include="Sprites\element_blue_rectangle.png" />
+    <Content Include="Sprites\element_green_rectangle.png" />
+    <Content Include="Sprites\element_grey_rectangle.png" />
+    <Content Include="Sprites\element_purple_rectangle.png" />
+    <Content Include="Sprites\element_red_rectangle.png" />
+    <Content Include="Sprites\element_yellow_rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Bonus\bonus_10.xnb" />
+    <None Include="bin\Bonus\bonus_11.xnb" />
+    <None Include="bin\Bonus\bonus_12.xnb" />
+    <None Include="bin\Bonus\bonus_13.xnb" />
+    <None Include="bin\Bonus\bonus_14.xnb" />
+    <None Include="bin\Fonts\TobagoPoster.xnb" />
+    <None Include="bin\Fonts\Unlearned.xnb" />
+    <None Include="bin\PuzzleGraphics\puzzleGraphics.xnb" />
+    <None Include="bin\Sounds\ballsgone.xnb" />
+    <None Include="bin\Sounds\brick.xnb" />
+    <None Include="bin\Sounds\coins.xnb" />
+    <None Include="bin\Sounds\gameover.xnb" />
+    <None Include="bin\Sounds\go.xnb" />
+    <None Include="bin\Sounds\levelup.xnb" />
+    <None Include="bin\Sounds\loselife.xnb" />
+    <None Include="bin\Sounds\magic-chime-01.xnb" />
+    <None Include="bin\Sounds\paddle.xnb" />
+    <None Include="bin\Sprites\breakout_bg.xnb" />
+    <None Include="bin\Sprites\breakout_sprites%28no shadow%29_5.xnb" />
+    <None Include="bin\Sprites\dark_border_top.xnb" />
+    <None Include="bin\Sprites\element_blue_rectangle.xnb" />
+    <None Include="bin\Sprites\element_green_rectangle.xnb" />
+    <None Include="bin\Sprites\element_grey_rectangle.xnb" />
+    <None Include="bin\Sprites\element_purple_rectangle.xnb" />
+    <None Include="bin\Sprites\element_red_rectangle.xnb" />
+    <None Include="bin\Sprites\element_yellow_rectangle.xnb" />
+    <None Include="Breakout.Content.mgcb" />
+    <None Include="Fonts\TobagoPoster.spritefont" />
+    <None Include="Fonts\Unlearned.spritefont" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
