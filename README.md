@@ -1,3 +1,3 @@
 # Breakout
 
-![Breakout](docs/assets/images/breakout.png)
+![Breakout](docs/assets/images/Breakout.png)
